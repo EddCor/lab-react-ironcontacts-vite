@@ -40,3 +40,249 @@
 .read-the-docs {
   color: #888;
 }
+
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+
+/* button 1 */
+.but1 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but1:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.but1:hover:after {
+  transform: translate(0, 0);
+}
+
+.but1:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.but1:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .but1 {
+    padding: 0 40px;
+  }
+
+
+  /* button2 */
+.but2 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but2:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.but2:hover:after {
+  transform: translate(0, 0);
+}
+
+.but2:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.but2:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .but2 {
+    padding: 0 40px;
+  }
+}
+
+/* button 3 */
+.but3 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but3:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.but3:hover:after {
+  transform: translate(0, 0);
+}
+
+.but3:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.but3:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .but3 {
+    padding: 0 40px;
+  }
+
+
+}
+/*  delet button  */
+.del {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.del:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.del:hover:after {
+  transform: translate(0, 0);
+}
+
+.bdel:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.del:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .del {
+    padding: 0 40px;
+  }
+
+}
+}

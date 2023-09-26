@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import contactsJSON from "./contacts.json";
 
+
 function App() {
   const [contacts, setContacts] = useState(contactsJSON.slice(0, 5))
   const addRandomContact = () => {
@@ -38,10 +39,12 @@ function App() {
   return (
     <div className="App">
       <h1>LAB | React IronContacts</h1>
-      <button onClick={addRandomContact}>Add random Number</button>
-      <button onClick={popularityRating}>Sort by popularity</button>
-      <button onClick={sortByName}>Sort by Name</button>
 
+      <div id= "buttons">
+      <button className="but1" onClick={addRandomContact}>Add random Number</button>
+      <button className="but2" onClick={popularityRating}>Sort by popularity</button>
+      <button className="but3" onClick={sortByName}>Sort by Name</button>
+      </div>
 
 
 
@@ -73,7 +76,7 @@ function App() {
                 <td>{oneContact.popularity}</td>
                 <td>{oneContact.wonOscar && "🏆"}</td>
                 <td>{oneContact.wonEmmy && "⭐️"}</td>
-                <td><button onClick={() => delet(oneContact.id)}>Delet</button></td>
+                <td><button className="del" onClick={() => delet(oneContact.id)}>Delet</button></td>
 
               </tr>
             )
@@ -88,5 +91,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
